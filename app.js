@@ -16,6 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Add the route handlers here:
 
 app.get('/', (req, res) => {
+  console.log('port3000')
   res.render('index');
 });
 
